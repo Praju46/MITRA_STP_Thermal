@@ -1,4 +1,4 @@
-import streamlit as st
+﻿import streamlit as st
 
 # Set layout and title
 st.set_page_config(layout="wide")
@@ -6,7 +6,8 @@ st.title("STP–Thermal Plant Interactive Map (Maharashtra)")
 st.markdown("View infrastructure linkages between STPs and thermal power plants, with district boundaries and distances.")
 
 # Path to your saved folium map
-map_path = r"F:\MITRA_WORK\GIS Lab\Analysis\stp_thermal_map_final.html"
+map_path = "stp_thermal_map_final.html"
+
 
 # Load and display the HTML content of the map
 try:
